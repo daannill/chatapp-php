@@ -1,5 +1,5 @@
-const fileInput = document.getElementById('profil');
-const imgPreview = document.getElementById('picture');
+const fileInput = document.getElementById('file');
+const imgPreview = document.getElementById('preview-img');
 
 fileInput.addEventListener('change', function() {
     if (fileInput.files.length > 0) {
