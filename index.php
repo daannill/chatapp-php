@@ -14,13 +14,14 @@ require_once __DIR__ . '/template-views/header.php';
         <div class="header">
             <h3>Login</h3>
             <div class="error-txt">This is error Message</div>
+            <div class="success-txt">This is error Message</div>
         </div>
 
         <div class="form">
             <form action="" autocomplete="off">
                 <div class="form-input">
-                    <label for="username">Username</label>
-                    <input type="text" name="username" id="username" placeholder="Enter your username" required>
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email" placeholder="Enter your email" required>
                 </div>
 
                 <div class="form-input">
@@ -30,7 +31,7 @@ require_once __DIR__ . '/template-views/header.php';
                 </div>
 
                 <div class="form-button">
-                    <button type="submit">Login</button>
+                    <button id="button">Login</button>
                 </div>
             </form>
         </div>
@@ -43,6 +44,7 @@ require_once __DIR__ . '/template-views/header.php';
 
 
 <script src="javascript/toogle-eye.js"></script>
+<script src="javascript/login.js"></script>
 
 
 <!-- <header class="header">Chat App</header>

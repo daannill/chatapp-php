@@ -1,4 +1,4 @@
-const fileInput = document.getElementById('file');
+const fileInput = document.getElementById('image');
 const imgPreview = document.getElementById('preview-img');
 
 fileInput.addEventListener('change', function() {
